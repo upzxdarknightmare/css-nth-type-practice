@@ -1,0 +1,65 @@
+
+body{
+    background-color: darksalmon;
+}
+button{
+    background-color: pink;
+    font-size: 22px;
+}
+
+#b1{
+background-color: seagreen;
+}
+
+.tag{
+    color: red;
+}
+
+input[type="text"]{
+    color:red;
+    background-color: pink;
+}
+
+a[href*="google.com"]{
+    color: powderblue;
+    font-size: 23px;
+}
+button:hover{
+    background-color: salmon;
+    color: #ffffff;
+}
+
+#b1:hover{
+    background-color: springgreen;
+    color: white;
+}
+.post button:hover{
+    background-color: yellow;
+    color: tomato;
+}
+
+.post button:active{
+    background-color: violet;
+    color: white;
+}
+
+
+.post:nth-of-type(2n){
+    background-color:darkturquoise;
+}
+
+.post:nth-of-type(2n+1){
+    background-color:gray;
+}
+
+h2::first-letter{
+    font-size: 40px;
+    color:white;
+}
+p::first-line{
+    color: deeppink;
+}
+p::selection{
+    color: deepskyblue;
+    background-color: white;
+}
